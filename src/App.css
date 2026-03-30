@@ -1,0 +1,96 @@
+/* Container setup */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Box styling */
+.box {
+  background: #fff;
+  padding: 20px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Input area */
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-area .input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.input-area .input:focus {
+  border-color: #007bff;
+}
+
+.input-area button {
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.input-area button:hover {
+  background: #0056b3;
+}
+
+/* Todo list */
+.todo-list .list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9fafc;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+}
+
+.todo-list .list p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Icons */
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icons .delete .delt {
+  color: #dc3545;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icons .delete .delt:hover {
+  transform: scale(1.2);
+}
+
+.icons .edit .pen {
+  color: #28a745;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icons .edit .pen:hover {
+  transform: scale(1.2);
+}
